@@ -1,0 +1,128 @@
+/* Importing Font Start */
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+/* Importing Font End */
+
+/* Common CSS or Utilities Start */
+body {
+    margin: 0;
+    font-family: 'Bona Nova', serif;;
+}
+.container {
+    padding: 3.8% 0;
+    background-color: #eee;
+}
+.btn-link {
+    background-color: #E02C6D;
+    font-size: 16px;
+    width: 148px;
+    padding: 10px 5px;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Common CSS or Utilities End */
+
+
+/* Header Style Start */
+.wrapper {
+    height: 677px;
+    background-color: #2D25A0;
+}
+.wrapper .wrapper-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .text-box {
+    width: 40%;
+    padding: 0 0 9% 10%;
+}
+.wrapper .text-box .heading-title {
+    font-size: 64px;
+    color: white;
+}
+.wrapper .text-box i {
+    font-size: 14px;
+}
+.wrapper .image-box {
+    width: 40%;
+    padding: 8% 10% 10% 0;
+}
+.wrapper .image-box .banner-img {
+    width: 556px;
+    height: 438px;
+}
+/* Header Style End */
+
+/* Players Section Style Start */
+.players {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.players .player {
+    width: 300px;
+    height: 460px;
+    padding: 15px;
+    box-shadow: 0 0 10px white;
+}
+.player .player-img {
+    overflow: hidden; 
+}
+.player .player-img img{
+    width: 300px;
+    height: 256px;
+    transition: transform 2s ease-in-out;
+}
+.player .player-img img:hover {
+    transform: scale(1.1);
+}
+.player .player-details h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+/* Footballer(Players) Section Style End */
+
+/* Highlight Section Start */
+.highlight-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highlight-box .highlight-txt {
+    width: 469px;
+    height: 309px;
+    padding: 15px;
+}
+.highlight-box .highlight-txt .highlight-title {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.highlight-box .highlight-txt .highlight-details {
+    font-size: 16px;
+}
+.highlight-box .highlight-img {
+    overflow: hidden;
+    padding: 15px;
+}
+.highlight-box .highlight-img img {  
+    width: 567px;
+    height: 427px;
+    transition: transform 2s ease-in-out;
+}
+.highlight-box .highlight-img img:hover {
+    transform: scale(1.1);
+}
+/* Highlight Section End */
