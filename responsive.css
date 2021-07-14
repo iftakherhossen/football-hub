@@ -1,0 +1,106 @@
+/*-- Media Queries Style Start--*/
+
+/* For Mobile Device Start*/
+@media only screen and (max-width: 600px) {
+    
+    .circle-area {
+        min-width: 550px;
+    }
+    .wrapper {
+        min-width: 600px;
+        min-height: 1000px;
+    }
+    .wrapper-box {
+        min-width: 600px;
+        flex-direction: column;
+    }
+    .text-box {
+        min-width: 550px;
+    }
+    .image-box {
+        min-width: 450px;
+    } 
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box-container {
+        flex-direction: column;
+    }
+    .section-title {
+        min-width: 600px;
+    }
+    .score-board {
+        max-width: 550px;
+    }
+    .calender {
+        margin-left: 3%;
+    }
+    .newsletter {
+        min-width: 550px;
+    }
+    .newsletter button {
+        min-width: 100px;
+    }
+    .social-media, .footer-txt {
+        margin-left: 25%;
+    }
+}
+/* For Mobile Device End */
+
+
+/* For Tab Start */
+@media only screen and (min-width: 600px) {
+
+    .circle-area {
+        min-width: 550px;
+    }
+    .wrapper {
+        min-width: 700px;
+        min-height: 1000px;
+    }
+    .wrapper-box {
+        min-width: 550px;
+        flex-direction: column;
+    }
+    .text-box {
+        min-width: 550px;
+    }
+    .image-box {
+        min-width: 500px;
+    } 
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .highlight-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box-container {
+        flex-direction: column;
+    }
+    .section-title {
+        min-width: 600px;
+    }
+    .score-board {
+        max-width: 600px;
+        margin-left: 0;
+    }
+    .newsletter {
+        min-width: 600px;
+        margin-left: 12px;
+    }
+    .newsletter button {
+        min-width: 100px;
+    }
+    .social-media, .footer-txt {
+        margin-left: 25%;
+    }
+
+}
+/* For Tab End */
+
+/*-- Media Queries Style End--*/
