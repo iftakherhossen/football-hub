@@ -374,6 +374,9 @@ a {
 /* Newsletter Style End */
 
 /* Footer Style Start */
+footer {
+    background-color: #2D25A0;
+}
 .footer-box {
     margin: 2% 0 6%;
 }
