@@ -47,12 +47,13 @@
     .social-media, .footer-txt {
         margin-left: 25%;
     }
+
 }
 /* For Mobile Device End */
 
 
 /* For Tab Start */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
 
     .circle-area {
         min-width: 550px;

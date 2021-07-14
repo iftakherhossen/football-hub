@@ -239,6 +239,10 @@ a {
     height: 75px;
     justify-content: center;
     align-items: center;
+    border: 2px solid transparent;
+}
+.live-score .box-container .score-board .time-table .info-wrapper:hover {
+    border: 2px solid #2D25A0;
 }
 .live-score .box-container .score-board .time-table .info-wrapper .team {
     font-size: 19px;
