@@ -34,9 +34,6 @@ a {
     margin-bottom: 15px;
     color: black;
 }
-.special-font {
-    font-size: 25px;
-}
 /* Common CSS or Utilities End */
 
 
@@ -264,6 +261,40 @@ a {
     color: #2D25A0;
 }
 /* Live Score Style End */
+
+/* Newsletter Style Start */
+.newsletter {
+    padding: 25px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #E02C6D;
+}
+.newsletter .newsletter-title {
+    font-size: 35px;
+}
+.newsletter .box {
+    margin: 20px 0 30px;
+}
+.newsletter .box input, button {
+    width: 60%;
+    padding: 15px;
+    border: 0;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    box-shadow: 0 0 10px 0 #aaa inset;
+    font-size: 18px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.newsletter .box button {
+    width: 10%;
+    border-radius: 0 25px 25px 0;
+    margin-left: -6px;
+    font-weight: 600;
+}
+/* Newsletter Style End */
 
 /* Footer Style Start */
 .footer-box {
