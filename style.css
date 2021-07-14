@@ -398,8 +398,7 @@ footer {
     justify-content: center;
 }
 .footer-box .social-media .bg-sm {
-    background-color: #ddd;
-    color: #969BAB;
+    background-color: gray;
     width: 32px;
     height: 32px;
     padding: 5px;
@@ -408,6 +407,9 @@ footer {
     border-radius: 100%;
     margin: 10px;
     margin-top: 2.5%;
+}
+.footer-box .social-media .bg-sm a {
+    color: white;
 }
 .footer-box .social-media .bg-sm:hover {
     background-color: #E02C6D;
