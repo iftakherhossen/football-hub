@@ -5,7 +5,6 @@ body {
 }
 .container {
     padding: 3.8% 0;
-    background-color: #eee;
 }
 .btn-link {
     background-color: #E02C6D;
@@ -148,9 +147,44 @@ a {
 }
 .live-score .box-container .score-board {
     width: 900px;
-    height: 510px;
+    height: 500px;
     margin: 4% 20px 1%;
     box-shadow: 0 0 10px white;
+}
+.live-score .box-container .score-board .tournament-title {
+    background-color: #2D25A0;
+    padding: 2px;
+    color: white;
+}
+.live-score .box-container .score-board .time-table .info-wrapper {
+    display: grid;
+    grid-template-columns: 150px 100px 150px 50px;
+    background-color: #ddd;
+    box-shadow: 0 0 10px white;
+    margin: 25px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+.live-score .box-container .score-board .time-table .info-wrapper .team {
+    font-size: 19px;
+    font-weight: 600;
+}
+.live-score .box-container .score-board .time-table .info-wrapper .time {
+    background-color: #2D25A0;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+}
+.live-score .box-container .score-board .time-table .info-wrapper .reminder {
+    font-size: 22px;
+    text-align: right;
+}
+.live-score .box-container .score-board .time-table .info-wrapper .reminder:hover {
+    color: #2D25A0;
 }
 .live-score .box-container .side-container {
     width: 400px;
@@ -209,13 +243,14 @@ a {
 }
 .live-score .box-container .important-links{
     width: 100%;
-    height: 190px;
+    height: 180px;
     box-shadow: 0 0 10px white;
     margin-top: 20px;
     text-align: left;
 }
 .live-score .box-container .important-links h3 {
     margin-left: 5%;
+    margin-top: 8px;
     margin-bottom: 0;
 }
 .live-score .box-container .important-links ul {
@@ -229,3 +264,41 @@ a {
     color: #2D25A0;
 }
 /* Live Score Style End */
+
+/* Footer Style Start */
+.footer-box {
+    margin: 2% 0 6%;
+}
+.footer-box .footer-img {
+    width: 483px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-box .footer-img img {
+    width: 90%;
+}
+.footer-box .social-media {
+    display: flex;
+    justify-content: center;
+}
+.footer-box .social-media .bg-sm {
+    background-color: #ddd;
+    color: #969BAB;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 10px;
+}
+.footer-box .social-media .bg-sm:hover {
+    background-color: #2D25A0;
+    color: white;
+}
+.footer-box .footer-txt p {
+    text-align: center;
+    font-size: 20px;
+} 
+/* Footer Style End */
